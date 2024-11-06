@@ -1,6 +1,6 @@
 # bPanel
 
-bPanel is a marching band management web app I built in partnership with the CSUS Marching Band. Built with jQuery and a mini MVC framework I developed in PHP.
+bPanel is a marching band management web app I built in partnership with the CSUS Marching Band in 2011. Built with jQuery and a mini MVC framework I developed in PHP.
 
 The app was hosted on my linux VPS, where it was actively used by the CSUS Band Director for 2 years until I no longer had to time to maintain it.
 
