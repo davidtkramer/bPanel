@@ -4,7 +4,13 @@ bPanel is a marching band management web app I built in partnership with the CSU
 
 The app was hosted on my linux VPS, where it was actively used by the CSUS Band Director for 2 years until I no longer had to time to maintain it.
 
-Of note, I used this project as a self-educational exercise in web security. Security features include hashed and salted passwords, session IDs with a message authentication code (MAC or tag) to detect tampered cookies, session tokens derived from a secret key, user agent, and IP address to help prevent session hijacking, and a CSRF token to prevent cross-site request forgeries. Session information is stored in a MySQL database instead of the file system to prevent snooping in shared hosting environments.
+Of note, I used this project as a self-educational exercise in web security. Security features included:
+
+- hashed and salted passwords
+- session IDs with a message authentication code (MAC or tag) to detect tampered cookies
+- session tokens derived from a secret key, user agent, and IP address to help prevent session hijacking
+- CSRF token to prevent cross-site request forgeries
+- session information stored in a MySQL database instead of the file system to prevent snooping in shared hosting environments
 
 # Features
 
